@@ -8,7 +8,7 @@ Twoge is a social media platform dedicated solely to tweets about Dodge. This ap
 		alt="Project Twoge"
 		src="./static/img/twoge.png">
 </h1>
-## **Prerequisites**
+## Prerequisites
 
 Before you can launch Twoge, you will need to have the following software installed on your system:
 
