@@ -6,5 +6,5 @@ RUN apk update && \
 COPY . /app
 WORKDIR /app
 RUN pip install -r requirements.txt
-EXPOSE 8080
+EXPOSE 80
 CMD python app.py
