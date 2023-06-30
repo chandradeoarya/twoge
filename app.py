@@ -8,7 +8,12 @@ load_dotenv()
 
 app = Flask(__name__)
 # app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///posts.db'
-app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('SQLALCHEMY_DATABASE_URI')
+username = os.environ.get('DB_USER')
+password = os.environ.get('DB_PASSWORD')
+hostname = os.environ.get('DB_HOST')
+port = int(os.environ.get('DB_PORT'))
+database = os.environ.get('DB_DATABASE')
+app.config['SQLALCHEMY_DATABASE_URI'] = f'postgresql://{username}:{password}@{hostname}:{port}/{database}'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
