@@ -31,7 +31,11 @@ services:
         volumes:
             - .:/app
         environment:
-            SQLALCHEMY_DATABASE_URI: "postgresql://chandra:akjA8iLp2A@database:5432/twoge_db"
+            DB_USER: chandra
+            DB_PASSWORD: akjA8iLp2A
+            DB_HOST: twoge-database-server
+            DB_PORT: 5432
+            DB_DATABASE: twoge_db
         depends_on:
           database:
             condition: service_healthy
