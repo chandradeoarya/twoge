@@ -4,7 +4,7 @@
 	<img
 		width="500"
 		alt="Project Twoge"
-		src="./static/img/twoge-cover.png">
+		src="https://github.com/chandradeoarya/twoge/blob/docker-compose/static/img/twoge-cover.png">
 </h1>
 
 Twoge is a social media platform dedicated solely to tweets about Dodge. This application is built using Flask, SQLAlchemy, and PostgreSQL.
@@ -13,7 +13,7 @@ Twoge is a social media platform dedicated solely to tweets about Dodge. This ap
 	<img
 		width="100"
 		alt="Project Twoge"
-		src="./static/img/twoge.png">
+		src="https://github.com/chandradeoarya/twoge/blob/docker-compose/static/img/twoge.png">
 </h1>
 
 ## **Prerequisites**
