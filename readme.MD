@@ -34,6 +34,7 @@ To get started with Twoge, follow these steps:
 3. Install the required packages using **`pip install -r requirements.txt`**.
 4. Create a PostgreSQL database for the application.
 5. Set the **`DATABASE_URL`** environment variable to the URL of your PostgreSQL database.
+| A sample DATABASE_URI looks like this - `postgresql://username:password@localhost/database_name`
 6. Run the application using **`python app.py`**.
 7. Navigate to **`http://localhost:5000`** in your web browser to use Twoge.
 
